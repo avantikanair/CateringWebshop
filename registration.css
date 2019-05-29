@@ -1,0 +1,29 @@
+body {
+    background-color: #fef2e4;
+    background-size:cover;
+    font-family: Fondamento;
+  }
+
+h1{
+    color: #805a3b;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+h2{
+    color: #C60000;
+}
+
+.tableFormat {
+    padding-bottom: 15px;
+}
+
+.titleFormat {
+    color:#C60000;
+    font-size: 20px;
+}
+
+.orderFormat{
+    color:#fd974f;
+}

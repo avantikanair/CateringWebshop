@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./registration.css">
+    <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+
+    <title>Registration | Shree foods!</title>
+</head>
+
+<body>
+    <form action="insert.php" method="POST"></form>
+    <!-- used the POST method because it is simple compared to GET, we did not URL to show form value  https://www.guru99.com/php-forms-handling.html-->
+    <h1> Create a new user </h1>
+    <div class="formDiv">
+        <span>First name:</span>
+        <input type="text" id="first-name">
+    </div>
+    <div class="formDiv">
+        <span>Last name:</span>
+        <input type="text" id="last-name">
+    </div>
+    <div class="formDiv">
+        <span>User name:</span>
+        <input type="text" id="username">
+    </div>
+    <div class="formDiv">
+        <span>Password:</span>
+        <input type="password" id="password" placeholder="min. 8 digits">
+    </div>
+
+
+
+    <div class="formDiv">
+
+        <input type="checkbox" id="terms">
+        <span>Terms and condition</span>
+    </div>
+    <div>
+        <span id="resultSpan"></span>
+    </div>
+    <div class="formDiv">
+        <input type="button" value="Complete Registration" id="submit-btn">
+    </div>
+    <div>
+        <h1> Log in </h1>
+    </div>
+
+    <div>
+        <span>User name:</span>
+        <input type="text" id="logusername">
+    </div>
+    <!-- using diff id so that previous username and password arent called-->
+    <div>
+        <span>Password: </span>
+        <input type="password" id="logpassword">
+    </div>
+    <div>
+        <div>
+            <span id="resultSpan2"></span>
+        </div>
+        <input type="button" value="Log in" id="login-btn">
+    </div>
+
+
+
+    <script src="./user.js"></script>
+    <script src="./currentUser.js"></script>
+    <script src="./registration.js"></script>
+    <script src="./login.js"></script>
+
+
+</body>
+
+</html>

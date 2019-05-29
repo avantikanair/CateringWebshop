@@ -1,0 +1,20 @@
+body {
+    background-image: url("homepage.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: beige;
+    font-family: 'Euphoria Script';
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: auto;
+    background-color: aliceblue;
+    text-align: center;
+  }
+
+h1{
+  font-size: 64px;
+}
+
+p{
+  font-size: 24px;
+}

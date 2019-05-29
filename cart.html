@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./cart.css">
+    <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+
+    <title>Your Shopping Cart</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="./homepage.html">Home</a></li>
+            <li><a href="./dishexample.html">Dishes/ Menu options</a></li>
+            <li><a href="./cart.html">Shopping cart</a></li>
+        </ul>
+    </header>
+
+    <div>
+        <h1>Your shopping cart</h1>
+        <table id=table>
+            <thead>
+                <tr class="orderFormat">
+                    <th>Dish</th>
+                    <th>Price (DKK) </th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="cart-content" class="orderFormat2">
+            </tbody>
+        </table>
+    </div>
+
+    <h3>Delivery details:</h3>
+    <div>
+        <span>Address: </span>
+        <input type="text" id="add-ress" size="150">
+    </div>
+
+    <div>
+        <span>Phone number:</span>
+        <input type="number" id="phone-number">
+    </div>
+
+    <div>
+        <span>Delivery date: </span>
+        <input type="date" name="setDate" id="delivery-Date">
+    </div>
+
+    <div>
+        <span>Delivery time: </span>
+        <select id="delivery-Time">
+            <option value="10-11 AM">10-11 AM</option>
+            <option value="4-5 PM">4-5 PM</option> </select>
+    </div>
+
+    <div>
+        <div>
+            <span id="orderResultSpan"></span>
+        </div>
+        <input type="button" value="Continue to checkout" id="continue-btn">
+    </div>
+
+    <script src="./dishclass.js"></script>
+    <script src="./product.js"></script>
+    <script src="./DOM.js"></script>
+    <script src="./delivery.js"></script>
+    <script src="./cart.js"></script>
+</body>
+
+</html>

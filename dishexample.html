@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./dishexample.css">
+    <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+
+    <title>Select a dish</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="./homepage.html">Home</a></li>
+            <li><a href="./dishexample.html">Dishes/ Menu options</a></li>
+            <li><a href="./cart.html">Shopping cart</a></li>
+        </ul>
+    </header>
+
+    <h2> We offer 10 dishes and 3 menu options for 10 people! </h2>
+
+    <table id=table class="tableFormat">
+        <thead>
+            <tr>
+                <th>  </th>
+                <th> Dish </th>
+                <th> Description </th>
+                <th> Price per kg (DKK) </th>
+                <th> Quantity </th>
+            </tr>
+        </thead>
+        <tbody id=tbody class="tableFormat2">
+        </tbody>
+    </table>
+</body>
+
+<script src="./dishclass.js"></script>
+<script src="./disharray.js"></script>
+<script src="./product.js"></script>
+<!--//doesnt take the user anyway, they have to click the button for shopping cart-->
+<script src="./button.js"></script>
+
+</html>
